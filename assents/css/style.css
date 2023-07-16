@@ -1,0 +1,10 @@
+.CONTAINER{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center
+       
+}
+body{
+    background-image: url(https://previews.123rf.com/images/rastudio/rastudio1511/rastudio151100606/48284393-icono-de-la-casa-de-cambio-de-l%C3%ADnea-para-web-m%C3%B3vil-y-la-infograf%C3%ADa-vector-icono-de-color-gris.jpg);
+}

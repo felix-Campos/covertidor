@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Monedas</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="./assents/css/style.css">
+
+</head>
+<body>
+  <DIV class="CONTAINER">
+  <h1>Conversor de Monedas</h1>
+  <label for="cantidad">Cantidad en pesos chilenos:</label>
+  <input type="number" id="cantidad"><br><br>
+
+  <label for="moneda">Moneda a convertir:</label>
+  <select id="moneda">
+    <option value="dolar">Dólar</option>
+    <option value="euro">Euro</option>
+    <option value="bitcoin">Bitcoin</option>
+  
+  </select><br><br>
+
+  <button onclick="convertirMoneda()">Convertir</button><br><br>
+  <p>Resultado:</p>
+  <p id="resultado"></p>
+
+  <p>:</p>
+  <p id="error"></p>
+
+  <canvas id="chart" width="400" height="200"></canvas>
+
+  
+  </div>
+  <Script src="./assents/JS/main.js"></Script>
+</body>
+</html>
+
+
+
+
+
